@@ -22,6 +22,7 @@ public class dataproviderlearn {
 		 driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys(user);
 		 Thread.sleep(3000);
 			driver.findElement(By.xpath("//input[@id='password']")).sendKeys(pass);
+			System.out.println("checking the page");
 			driver.close();
   }
   @DataProvider
